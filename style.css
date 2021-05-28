@@ -1,0 +1,146 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+* {
+  box-sizing: border-box;
+}
+
+/* The Banner */
+h1 {
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin: auto;
+}
+
+strong {
+  color: #198754;
+  font-weight: bolder;
+}
+
+.btn-success:hover {
+  color: black; !important
+  background-color: #00000;
+}
+
+.banner{
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("https://images.unsplash.com/photo-1468818438311-4bab781ab9b8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fHRyYXZlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+
+  /* Set a specific height */
+  height: 70%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.banner-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.banner-text h1 {
+  font-size: 50px;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.banner-text h2 {
+  font-size: 35px;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+
+
+
+
+/*section*/
+.section img {
+  height: 400px;
+  margin: 40px 40px;
+
+}
+.section {
+  background-color: #198754;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.left, .right {
+  margin: 40px 40px;
+}
+
+.right h2 {
+  padding-top: 30px;
+  font-family: 'Alfa Slab One', cursive;
+  color: #FFFFFF;
+}
+
+.section-two {
+  height: 400px;
+}
+
+
+.right p {
+  margin-top: 20px;
+}
+
+
+
+
+
+/*footer*/
+
+.footer{ 
+
+background-color: #202020;
+color: #FFFFFF;
+height: 40%;
+ }
+
+ .logo {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 40px;
+  text-align: center;
+  border-bottom: solid 1px #C0C0C0;
+ }
+
+.clmns {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.clmn-one, .clmn-two, .clmn-three, .clmn-four, h2 {
+    margin: 10px;
+    font-size: 16px;
+}
+
+
+ul {
+    list-style-type: none;
+    display: table-cell;
+    padding-bottom: 20px;
+}
+
+ol, ul {
+  padding-left: 0rem!important;
+}
+
+
+
+
